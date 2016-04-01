@@ -1,0 +1,37 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "description": "To setup a React project with hello world app. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/foobearer/setup-react.git"
+  },
+  "keywords": [
+    "react",
+    "setup",
+    "getting-started"
+  ],
+  "author": "Joycee C. Paragas | Twitter: @jcprgs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foobearer/setup-react/issues"
+  },
+  "homepage": "https://github.com/foobearer/setup-react#readme",
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.15.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
