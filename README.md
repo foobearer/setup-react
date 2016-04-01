@@ -27,7 +27,7 @@
 
 4. Install all the dev environtment tools
 
-  ```npm install --save html-webpack-plugin webpack web-dev-server babel-{core,loader} babel-preset-react```
+  ```npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-{core,loader} babel-preset-react```
 
 5. Create `/app` folder and go inside the folder
   
